@@ -1,7 +1,7 @@
 tokyo
 =====
 
-nodeschool group for Tokyo, Japan
+nodeschool group for Osaka, Japan
 
 # join the chat
 
