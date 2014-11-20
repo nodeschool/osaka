@@ -1,4 +1,4 @@
-tokyo
+osaka
 =====
 
 nodeschool group for Osaka, Japan
