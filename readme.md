@@ -14,7 +14,7 @@ NodeSchool 大阪のタスクは Github を使って管理します。タスク�
 ## どうして Gitter?
 
  - Github とのつながりがいい
- - 無理です
+ - 無料です
  - Twitterのアカウントでも使えます
 
 センシティーブの質問であれば [martinheidegger@gitter](https://gitter.im/martinheidegger) にプライベートメッセージしてください。
