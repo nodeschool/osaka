@@ -9,20 +9,20 @@
 
 ### Debian, Ubuntu
 
-1. `curl` が利用できることを確認します。もしインストールされていない場合は、パッケージ情報を更新の上インストールを行います。
+1 `curl` が利用できることを確認します。もしインストールされていない場合は、パッケージ情報を更新の上インストールを行います。
 
 ```
 $ sudo apt-get update
 $ sudo apt-get install curl
 ```
 
-2. NodeSource リポジトリを登録します。ここでは LTS (Long-term Support, 長期サポート) バージョンである v4 系を指定しています。
+2 NodeSource リポジトリを登録します。ここでは LTS (Long-term Support, 長期サポート) バージョンである v4 系を指定しています。
 
 ```
 $ curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 ```
 
-3. Node をインストールします
+3 Node をインストールします
 
 ```
 $ sudo apt-get install -y nodejs
@@ -40,20 +40,20 @@ Nodeパッケージマネージャ | /usr/bin/npm
 
 ### Red Hat Enterprise Linux, CentOS, Fedora
 
-1. `curl` が利用できることを確認します。もしインストールされていない場合は、パッケージ情報を更新の上インストールを行います。
+1 `curl` が利用できることを確認します。もしインストールされていない場合は、パッケージ情報を更新の上インストールを行います。
 
 ```
 $ sudo yum update
 $ sudo yum install curl
 ```
 
-2. NodeSource リポジトリを登録します。ここでは LTS (Long-term Support, 長期サポート) バージョンである v4 系を指定しています。
+2 NodeSource リポジトリを登録します。ここでは LTS (Long-term Support, 長期サポート) バージョンである v4 系を指定しています。
 
 ```
 $ curl --silent --location https://rpm.nodesource.com/setup_4.x | sudo bash -
 ```
 
-3. Node をインストールします
+3 Node をインストールします
 
 ```
 $ sudo yum install -y nodejs
@@ -79,14 +79,14 @@ Nodeパッケージマネージャ | /usr/bin/npm
 ターミナルを起動します。`node -v` とタイプしてコマンドを実行してみると、Node のバージョンが表示されます。
 
 ```shell
-# node -v
+$ node -v
 v4.4.5
 ```
 
 同じくターミナルで `npm` とタイプしてコマンド実行します。今度は Node パッケージマネージャ npm のコマンド解説が画面に表示されます。
 
 ```
-# npm
+$ npm
 
 Usage: npm <command>
 
@@ -125,7 +125,7 @@ npm@2.15.5 /usr/local/lib/node_modules/npm
 ここでは、Node の基礎を学ぶことができる `learnyounode` という workshopper をインストールしてみましょう。ターミナル上で、次のようなコマンドを実行してください。
 
 ```
-# sudo npm install -g learnyounode
+$ sudo npm install -g learnyounode
 ```
 
 **今回実行したコマンドのポイント**
@@ -162,7 +162,7 @@ learnyounode@3.5.3 /usr/local/lib/node_modules/learnyounode
 workshopper には、学習のための実行プログラムが梱包されています。 `learnyounode` というコマンドを実行してみましょう。
 
 ```
-# learnyounode
+$ learnyounode
 ```
 
 ターミナルには色鮮やかな画面が表示されましたか？
