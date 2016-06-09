@@ -113,7 +113,7 @@ workshopper には、学習のための実行プログラムが梱包されて�
 
 ターミナルには色鮮やかな画面が表示されましたか？
 
-![learnyounode-osx](learnyounode-osx.png)
+![learnyounode](learnyounode.png)
 
 learnyounode は他言語対応しており、日本語で学習することができます。キーボードの上下キーを使って `CHOOSE LANGUAGE` までカーソルを動かしてリターンキーを押し、`Japanese (日本語)` を選択します。
 
