@@ -5,4 +5,4 @@ Node の勉強を始めるなら、コンピュータで Node を動かすこと
 
 * Windows 導入ガイド
 * [Mac OSX 導入ガイド](osx.md)
-* Linux 導入ガイド
+* [Linux 導入ガイド](linux.md)
