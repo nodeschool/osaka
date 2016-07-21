@@ -132,14 +132,14 @@ $ sudo npm install -g learnyounode
 
 * `npm` は、プログラム実行時にサブコマンドをあわせて指定することで利用します。
 * `npm install <package_name>` というコマンドで、指定した Node のパッケージをコンピュータへインストールすることができます。
-* `-g` というオプションは「グローバルモード」を指定していて、パッケージのグローバルインストールを行います。これによって、そのパッケージに関連しているソースコードや実行プログラムなどが `/usr/local` 以下に保存されることになります。
-* グローバルモードによるインストールで `/usr/local` 以下にファイルが保存されることになるため、`sudo` でコマンド実行しています。
+* `-g` というオプションは「グローバルモード」を指定していて、パッケージのグローバルインストールを行います。これによって、そのパッケージに関連しているソースコードや実行プログラムなどが `/usr` 以下に保存されることになります。
+* グローバルモードによるインストールで `/usr` 以下にファイルが保存されることになるため、`sudo` でコマンド実行しています。
 
 実行に成功すれば、ターミナル画面にはインストールされた leanyounode パッケージと、そのパッケージが依存している関連パッケージがあわせてインストールされた旨が表示されます。
 
 ```
-/usr/local/bin/learnyounode -> /usr/local/lib/node_modules/learnyounode/bin/learnyounode
-learnyounode@3.5.3 /usr/local/lib/node_modules/learnyounode
+/usr/bin/learnyounode -> /usr/lib/node_modules/learnyounode/bin/learnyounode
+learnyounode@3.5.3 /usr/lib/node_modules/learnyounode
 ├── duplexer@0.1.1
 ├── after@0.8.1
 ├── boganipsum@0.1.0
